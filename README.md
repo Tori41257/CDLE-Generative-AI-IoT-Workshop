@@ -61,7 +61,7 @@
 
 M5Stack CoreS3 SEの画面をタッチするたびに、稼働状態の表示が切り替わるプログラムを動かします。参加者はプログラムの音量設定を変更し、実機へ転送して変化を確認します。
 
-デモ用プログラム：
+冒頭デモで使用する見本コード：
 
 - [M5Stack-CoreS3-SE-Chain-Monitor](https://github.com/Tori41257/M5Stack-CoreS3-SE-Chain-Monitor)
 
