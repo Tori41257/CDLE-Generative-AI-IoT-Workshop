@@ -1,6 +1,7 @@
 # M5Stack Core2 Touch Demo
 
-JDLAワークショップの冒頭で使用する、M5Stack Core2 v1.3向けのタッチデモです。PlatformIOとArduino Frameworkでビルドできます。
+JDLAワークショップの冒頭で使用する、M5Stack Core2向けのタッチデモです。PlatformIOとArduino Frameworkでビルドできます。
+当日、ワークショップ開始前にM5Stack Core2にアップロードしておいてください。
 
 ## 動作
 
