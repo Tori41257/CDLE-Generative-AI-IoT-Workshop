@@ -58,7 +58,7 @@
 - [M5Stack用GROVE互換ケーブル 5 cm](https://www.switch-science.com/products/8664?pr_prod_strat=jac&pr_rec_id=c9a1cb7ee&pr_rec_pid=7721035989190&pr_ref_pid=8797683417286&pr_seq=uniform)
 - ブロックで組み立てた模擬製造ライン
 
-Chain EncoderとChain ToFはUARTで数珠つなぎにします。Core2のHY2.0-4P端子は、このワークショップでは黄線（GPIO32）をTX、白線（GPIO33）をRXとして使用します。
+※Chain EncoderとChain ToFはUARTで数珠つなぎにします。
 
 ## 冒頭デモ
 
