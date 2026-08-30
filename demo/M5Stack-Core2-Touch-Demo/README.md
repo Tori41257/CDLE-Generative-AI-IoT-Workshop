@@ -4,6 +4,10 @@ JDLAワークショップの冒頭で使用する、M5Stack Core2 v1.3向けの�
 
 ## 動作
 
+![M5Stack Core2 Touch Demoの動作概要](assets/touch-demo-overview.png)
+
+Core2をUSB-CケーブルでノートPCへ接続し、Visual Studio Code／PlatformIOからプログラムを書き込みます。
+
 画面をタッチするたびに、次の順番で表示が切り替わります。
 
 1. 緑：`RUNNING / OPERATION`
