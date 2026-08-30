@@ -70,7 +70,7 @@ M5Stack Core2の画面をタッチするたびに、稼働状態の表示が切�
 
 ハンズオンの完成見本：
 
-- [このリポジトリ内のM5Stack Core2 Chain Monitor](hands-on/M5Stack-Core2-Chain-Monitor)
+- [M5Stack Core2 Chain Monitor](hands-on/M5Stack-Core2-Chain-Monitor)
 
 ## ハンズオン課題
 
