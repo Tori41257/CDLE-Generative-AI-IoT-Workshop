@@ -4,15 +4,19 @@
 
 ## 内容
 
-1. M5Stack CoreS3 SEをPCへUSB接続する
+1. M5Stack Core2をPCへUSB接続する
 2. 画面をタッチし、表示が「稼働中 → 注意 → 停止」と切り替わることを確認する
 3. ソースコードの通知音量に関する値を変更する
 4. プログラムをビルドして実機へ転送する
 5. ターミナルに `SUCCESS` と表示されることを確認する
 6. 停止表示へ切り替え、通知音の変化を確認する
 
-## デモ用リポジトリ
+## デモ用コード
 
-[M5Stack-CoreS3-SE-Chain-Monitor](https://github.com/Tori41257/M5Stack-CoreS3-SE-Chain-Monitor)
+[M5Stack-Core2-Touch-Demo](M5Stack-Core2-Touch-Demo)
+
+PlatformIOでこのフォルダを開き、`Upload`を実行してください。初期値の`SPEAKER_VOLUME`は30です。投影資料の段取りでは100へ変更し、再転送して音量の違いを確認します。
+
+ハンズオンの完成見本は[M5Stack-Core2-Chain-Monitor](https://github.com/Tori41257/M5Stack-Core2-Chain-Monitor)です。
 
 このデモは、本編で行う「変更する → 転送する → 動作を確認する」という流れの予行演習です。

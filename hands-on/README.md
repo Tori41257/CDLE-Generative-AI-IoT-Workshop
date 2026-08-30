@@ -11,7 +11,7 @@
 
 ## 基本手順
 
-1. M5Stack CoreS3 SEとChain EncoderをGROVEケーブルで接続する
+1. M5Stack Core2とChain EncoderをGROVEケーブルで接続する
 2. Chain Encoderと模擬製造ラインの回転軸をブロックで接続する
 3. 使用機材と要件を生成AIへ伝える
 4. 生成されたコードを開発環境へ貼り付ける
@@ -33,5 +33,6 @@
 - 停止判定時間を変更できるようにする
 - 停止回数や累積停止時間を記録する
 - Wi-Fi経由で停止情報を送信する
+- Chain ToFで距離や物体の接近を検知する
 
 困った場合は [トラブルシューティング](../troubleshooting/README.md) を参照してください。

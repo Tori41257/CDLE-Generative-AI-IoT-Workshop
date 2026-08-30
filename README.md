@@ -31,7 +31,7 @@
 | 1. オープニング | JDLA・CDLEの紹介 |
 | 2. 冒頭説明 | 製造業DX、IoT、生成AI、フィジカルAIと本講座の目的 |
 | 3. ゴール共有 | 対象者、到達点、生成AIとの付き合い方 |
-| 4. 機材確認 | PC、M5Stack CoreS3 SE、Chain Encoder、模擬製造ライン |
+| 4. 機材確認 | PC、M5Stack Core2、Chain Encoder、Chain ToF、模擬製造ライン |
 | 5. 冒頭デモ | 画面表示の切り替えと通知音の変更 |
 | 6. ハンズオン | 回転停止を検知して通知するデバイスの開発 |
 | 7. 発展 | センサー、API、ネットワーク、データ保存、AI・カメラ活用 |
@@ -52,18 +52,25 @@
 
 - ノートPC
 - USBケーブル
-- M5Stack CoreS3 SE
-- M5Stack Chain Encoder
-- GROVEケーブル
+- [M5Stack Core2 v1.3](https://www.switch-science.com/collections/m5stack/products/11050)
+- [M5Stack Chain Encoder](https://www.switch-science.com/products/10919?_pos=12&_sid=3317d8f22&_ss=r)
+- [M5Stack Chain ToF](https://www.switch-science.com/products/11001?_pos=8&_sid=f649cb7d9&_ss=r)
+- [M5Stack用GROVE互換ケーブル 5 cm](https://www.switch-science.com/products/8664?pr_prod_strat=jac&pr_rec_id=c9a1cb7ee&pr_rec_pid=7721035989190&pr_ref_pid=8797683417286&pr_seq=uniform)
 - ブロックで組み立てた模擬製造ライン
+
+Chain EncoderとChain ToFはUARTで数珠つなぎにします。Core2のHY2.0-4P端子は、このワークショップでは黄線（GPIO32）をTX、白線（GPIO33）をRXとして使用します。
 
 ## 冒頭デモ
 
-M5Stack CoreS3 SEの画面をタッチするたびに、稼働状態の表示が切り替わるプログラムを動かします。参加者はプログラムの音量設定を変更し、実機へ転送して変化を確認します。
+M5Stack Core2の画面をタッチするたびに、稼働状態の表示が切り替わるプログラムを動かします。参加者はプログラムの音量設定を変更し、実機へ転送して変化を確認します。
 
 冒頭デモで使用する見本コード：
 
-- [M5Stack-CoreS3-SE-Chain-Monitor](https://github.com/Tori41257/M5Stack-CoreS3-SE-Chain-Monitor)
+- [このリポジトリ内のM5Stack Core2タッチデモ](demo/M5Stack-Core2-Touch-Demo)
+
+ハンズオンの完成見本：
+
+- [M5Stack-Core2-Chain-Monitor](https://github.com/Tori41257/M5Stack-Core2-Chain-Monitor)
 
 ## ハンズオン課題
 

@@ -6,14 +6,16 @@
 
 ```text
 添付した写真のデバイスについて、製品名、主な機能、開発方法を初心者向けに説明してください。
-機材に書かれている文字は「M5Stack CoreS3 SE」です。
+機材に書かれている文字は「M5Stack Core2 v1.3」です。
 ```
 
 ## プログラムを作る
 
 ```text
-M5Stack CoreS3 SEとM5Stack Chain EncoderをGROVEケーブルで接続しています。
+M5Stack Core2 v1.3とM5Stack Chain EncoderをGROVEケーブルで接続しています。
 PlatformIOとArduino Frameworkを使用します。
+
+Core2のHY2.0-4P端子は、黄線のGPIO32をTX、白線のGPIO33をRXとしてUART通信に使用します。
 
 Chain Encoderの回転を検知し、回転が一定時間止まったら通知音を鳴らす
 プログラムを作成してください。
@@ -33,7 +35,7 @@ Chain Encoderの回転を検知し、回転が一定時間止まったら通知�
 原因を説明し、修正後のコード全体を出力してください。
 
 【使用機材】
-M5Stack CoreS3 SE
+M5Stack Core2 v1.3
 M5Stack Chain Encoder
 
 【エラーメッセージ】
