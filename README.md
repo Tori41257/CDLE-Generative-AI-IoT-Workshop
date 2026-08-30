@@ -73,7 +73,7 @@ M5Stack Core2の画面をタッチするたびに、稼働状態の表示が切�
 
 冒頭デモで使用する見本コード：
 
-- [このリポジトリ内のM5Stack Core2タッチデモ](demo/M5Stack-Core2-Touch-Demo)
+- [M5Stack Core2タッチデモ](demo/M5Stack-Core2-Touch-Demo)
 
 ハンズオンの完成見本：
 
