@@ -37,6 +37,13 @@
 | 7. 発展 | センサー、API、ネットワーク、データ保存、AI・カメラ活用 |
 | 8. 振り返り | 試行錯誤の共有とクロージング |
 
+## 事前準備
+
+ワークショップへ参加する前に、開発用PCへVisual Studio CodeとPlatformIO IDEをインストールしてください。
+
+- [Visual Studio Codeのインストール方法（Windows）](https://www602.math.ryukoku.ac.jp/Prog1/vscode-win.html)
+- [PlatformIO IDEのインストール方法](https://logikara.blog/install_platform/#google_vignette)
+
 ## 生成AIとの付き合い方
 
 1. **対話する**  
