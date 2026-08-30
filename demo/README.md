@@ -17,6 +17,6 @@
 
 PlatformIOでこのフォルダを開き、`Upload`を実行してください。初期値の`SPEAKER_VOLUME`は30です。投影資料の段取りでは100へ変更し、再転送して音量の違いを確認します。
 
-ハンズオンの完成見本は[M5Stack-Core2-Chain-Monitor](https://github.com/Tori41257/M5Stack-Core2-Chain-Monitor)です。
+ハンズオンの完成見本は[M5Stack-Core2-Chain-Monitor](../hands-on/M5Stack-Core2-Chain-Monitor)です。
 
 このデモは、本編で行う「変更する → 転送する → 動作を確認する」という流れの予行演習です。

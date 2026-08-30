@@ -2,6 +2,8 @@
 
 生成AIの支援を受けながら、模擬製造ラインの回転停止を検知して通知するIoTデバイスを作ります。
 
+完成見本のPlatformIOプロジェクトは[M5Stack-Core2-Chain-Monitor](M5Stack-Core2-Chain-Monitor)にあります。
+
 ## 要件
 
 - Chain Encoderの回転を読み取る

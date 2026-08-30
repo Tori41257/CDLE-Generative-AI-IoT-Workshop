@@ -65,6 +65,10 @@
 - [M5Stack用GROVE互換ケーブル 5 cm](https://www.switch-science.com/products/8664?pr_prod_strat=jac&pr_rec_id=c9a1cb7ee&pr_rec_pid=7721035989190&pr_ref_pid=8797683417286&pr_seq=uniform)
 - ブロックで組み立てた模擬製造ライン
 
+  ![ブロックで組み立てた模擬製造ライン](assets/mock-production-line.png)
+
+  ※アリエクで購入
+
 ※Chain EncoderとChain ToFはUARTで数珠つなぎにします。
 
 ## 冒頭デモ
@@ -77,7 +81,7 @@ M5Stack Core2の画面をタッチするたびに、稼働状態の表示が切�
 
 ハンズオンの完成見本：
 
-- [M5Stack-Core2-Chain-Monitor](https://github.com/Tori41257/M5Stack-Core2-Chain-Monitor)
+- [このリポジトリ内のM5Stack Core2 Chain Monitor](hands-on/M5Stack-Core2-Chain-Monitor)
 
 ## ハンズオン課題
 

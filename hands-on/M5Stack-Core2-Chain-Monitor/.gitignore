@@ -1,0 +1,20 @@
+# PlatformIO build output
+.pio/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+secrets.h
+include/secrets.h
+
+# Logs
+*.log
